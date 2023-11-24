@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: blue;
+    line-height: 1.6;
+}
+
+#header{
+    background-image: url('photo_2023-11-24_20-41-19.jpg');
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#header p{
+    color: white;
+    padding-bottom: 20px;
+}
+
+#header h1{
+    text-transform: uppercase;
+    color: slateblue;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+#header a{
+    text-decoration: none;
+    color: white;
+    background-color: slateblue;
+    border-radius: 5px;
+    border: slateblue solid 1px;
+    padding: 5px;
+}
+
+#header a:hover{
+background-color: black;
+color: white;
+}
+
+#header h1::first-letter{
+    color: blue;
+    font-size: 10;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+#section{
+    padding: 5px;
+    text-align: center;
+    display: flex;
+}
+
+#section .box-1,.box-3{
+    border: 1px solid lightgray;
+    align-items: flex-start;
+}
+
+#section .box-2{
+    text-decoration: none;
+}
+
+
+#footer{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
